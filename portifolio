@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .projeto {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Seu Nome</h1>
+    <p>Desenvolvedor Web | Front-end | Back-end</p>
+  </header>
+
+  <section>
+    <h2>Sobre Mim</h2>
+    <p>Sou um desenvolvedor apaixonado por criar soluções web modernas. Tenho experiência com HTML, CSS, JavaScript, e frameworks como React e Node.js.</p>
+  </section>
+
+  <section>
+    <h2>Projetos</h2>
+
+    <div class="projeto">
+      <h3>Projeto 1: Meu Site Pessoal</h3>
+      <p>Um site responsivo feito com HTML, CSS e JavaScript.</p>
+      <a href="https://github.com/seuusuario/meu-site" target="_blank">Ver no GitHub</a>
+    </div>
+
+    <div class="projeto">
+      <h3>Projeto 2: Aplicativo de Tarefas</h3>
+      <p>Um app web simples para gerenciar tarefas usando React.</p>
+      <a href="https://github.com/seuusuario/app-tarefas" target="_blank">Ver no GitHub</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contato</h2>
+    <p>Email: seuemail@exemplo.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/seuusuario/" target="_blank">linkedin.com/in/seuusuario</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Seu Nome</p>
+  </footer>
+
+</body>
+</html>
